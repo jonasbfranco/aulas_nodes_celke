@@ -1,0 +1,32 @@
+Git
+
+git clone - Baixar projeto
+git add Adicionar os arquivos nos commits
+git commit -m "mensagem" Para formalizar mudancas
+git push para subir alterações
+git pull para receber codigo atualizado
+
+Exemplos
+git clone https://github.com/jonasbfranco/programa-angular.git
+
+cd programa-angular
+git add .
+git commit -m "Importacao Inicial"
+git push
+
+
+Trabalhando em Equipe
+git checkout -b alteracao-de-cor
+git add .
+git commit -m "alteracao de fundo de cor da tela"
+git push
+
+Abrir o github e criar o pull request
+
+
+Baixando as alteracoes da equipe
+git pull
+
+
+
+
