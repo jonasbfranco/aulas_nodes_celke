@@ -1,0 +1,49 @@
+executar rotas
+npm install express --save
+
+executar servidor com refesh automatico
+npm install -g nodemon
+
+Instalar Mysql
+Para verificar Mysql
+abrir cmd
+mysql -h localhost -u root -p
+<enter>
+digitar a senha
+123456
+
+mostrar bases de dados
+SHOW DATABASES;
+criar bases de dados
+CREATE DATABASE JBF;
+usar base de dados criada
+USE JBF;
+criar tabela na base JBF
+CREATE TABLE users (nome VARCHAR(220),email VARCHAR(220));
+mostrar tabelas
+SHOW TABLES;
+inserir dados na tabela users
+INSERT INTO users (nome, email) VALUES ('Jonas','jonasbfranco@gmail.com');
+mostrar dados inseridos
+SELECT * FROM users;
+
+Instalar MysqlWorkbench
+
+npm install mysql --save
+
+criar usuario mysql
+CREATE USER 'jonasone'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456'; 
+
+liberar permissao ao usuario jonasone
+GRANT ALL PRIVILEGES ON * . * TO 'jonasone'@'localhost';
+
+depois rodar comando para recarregar os privilegios
+FLUSH PRIVILEGES;
+
+
+
+
+
+
+
+
